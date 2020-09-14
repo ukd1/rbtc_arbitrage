@@ -1,4 +1,13 @@
 PATH
+  remote: bitstamp
+  specs:
+    bitstamp (0.4.0)
+      activemodel (>= 3.1)
+      activesupport (>= 3.1)
+      curb (> 0.8.1)
+      ruby-hmac (= 0.4.0)
+
+PATH
   remote: .
   specs:
     rbtc_arbitrage (2.3.0)
@@ -12,15 +21,6 @@ PATH
       rake (= 10.1.1)
       tco (= 0.1.0)
       thor
-
-PATH
-  remote: ./bitstamp
-  specs:
-    bitstamp (0.4.0)
-      activemodel (>= 3.1)
-      activesupport (>= 3.1)
-      curb (> 0.8.1)
-      ruby-hmac (= 0.4.0)
 
 GEM
   remote: https://rubygems.org/
@@ -62,7 +62,7 @@ GEM
     docile (1.1.1)
     faraday (0.8.8)
       multipart-post (~> 1.2.0)
-    ffi (1.9.3)
+    ffi (1.13.1)
     formatador (0.2.4)
     guard (2.2.5)
       formatador (>= 0.2.4)
